@@ -1,0 +1,13 @@
+clc
+p1=poly([-1,0,0,1],"x","coeff")
+r1=roots(p1)
+disp(p1)
+disp(r1)
+p2=poly([-1,0,0,0,1],"x","coeff")
+r2=roots(p2)
+disp(p2)
+disp(r2)
+p3=poly([-1,0,0,0,0,1],"x","coeff")
+r3=roots(p3)
+disp(p3)
+disp(r3)
