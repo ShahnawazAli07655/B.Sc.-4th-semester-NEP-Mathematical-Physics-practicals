@@ -1,119 +1,113 @@
-# B.Sc.-4th-semester-NEP-Mathematical-Physics-practicals
-This repository contains a collection of Scilab (.sci) programs designed for undergraduate-level numerical methods and linear algebra laboratory work. Each file corresponds to a specific experiment demonstrating core mathematical and computational concepts using Scilab.
+# Mathematical Physics Practical – Scilab Programs  
+### B.Sc. Physics (4th Semester, NEP)
 
-📁 Contents
-Exp 1: Differential Equations using ODE Solver
+This repository contains **Scilab programs for the Mathematical Physics Practical**
+prescribed for **B.Sc. Physics 4th Semester**.  
+The programs help students understand **linear algebra and complex number concepts**
+through numerical computation.
 
-File: Exp 1 scilab diff eqn.sci
+---
 
-Solves first-order and second-order ordinary differential equations using Scilab’s built-in ode() function.
+## 📁 List of Experiments
 
-Demonstrates:
+---
 
-Solution of 
-\frac{dy}{dx} = e^x
-dx
-dy
-	​
+## Experiment 2: Matrix Multiplication  
+**File:** `Exp 2 Matrix multiply.sci`
 
-=e
-x
+### Aim  
+To perform multiplication of matrices using Scilab.
 
+### Theory  
+Matrix multiplication is a fundamental operation in linear algebra and is widely used
+in physics for solving systems of equations, coordinate transformations, and operator
+methods.
 
+### Learning Outcome  
+Students learn basic matrix operations and their implementation in Scilab.
 
-Solution of 
-\frac{dy}{dx} = x^2 - e^{-x}y
-dx
-dy
-	​
+---
 
-=x
-2
-−e
-−x
-y
+## Experiment 3: Eigenvalues and Eigenvectors of a Matrix  
+**File:** `Exp 3 matrix eigen.sci`
 
+### Aim  
+To compute eigenvalues and eigenvectors of a given matrix using Scilab.
 
-Solution of a second-order differential equation rewritten as a system of first-order equations.
+### Theory  
+Eigenvalues and eigenvectors play a crucial role in many areas of physics such as
+quantum mechanics, vibrations, and normal mode analysis.
 
-Outputs numerical solutions over a specified range of x.
+### Learning Outcome  
+Students understand diagonalization and physical significance of eigenvalues.
 
-Exp 2: Matrix Multiplication
+---
 
-File: Exp 2 Matrix multiply.sci
+## Experiment 8: n-th Roots of a Complex Number  
+**File:** `Exp 8 nthroot all .sci`
 
-Performs multiplication of two 3×3 matrices.
+### Aim  
+To find all n-th roots of a given complex number.
 
-Demonstrates basic matrix operations in Scilab.
+### Theory  
+Using polar form and De Moivre’s theorem, the roots of complex numbers can be obtained
+systematically and represented in the complex plane.
 
-Displays matrices A, B, and the resulting product 
-C = A \times B
-C=A×B.
+### Learning Outcome  
+Students visualize complex roots and understand their geometric distribution.
 
-Exp 3: Eigenvalues of Matrices
+---
 
-File: Exp 3 matrix eigen.sci
+## Experiment 9: Square Root of a Complex Number  
+**File:** `Exp 9 Sqrt of 5 12i.sci`
 
-Computes eigenvalues of:
+### Aim  
+To compute the square root of a complex number using Scilab.
 
-A real matrix
+### Theory  
+The square root of a complex number can be calculated using algebraic or polar form,
+leading to two distinct solutions.
 
-Complex matrices
+### Learning Outcome  
+Students gain confidence in complex number arithmetic and interpretation.
 
-Useful for understanding matrix diagonalization and spectral properties.
+---
 
-Demonstrates handling of complex numbers in Scilab.
+## 🎓 Course Context
 
-Exp 8: n-th Roots of Unity
+These programs are designed for **B.Sc. Physics 4th Semester**
+**Mathematical Physics Practical / Laboratory**.
 
-File: Exp 8 nthroot all .sci
+They are useful for:
+- Undergraduate laboratory sessions  
+- Classroom demonstrations  
+- Self-study and concept verification  
 
-Computes all roots of unity by solving polynomial equations using the roots() function.
+---
 
-Examples include:
+## 📊 Output
 
-Cube roots of unity
+- Numerical results displayed in the Scilab console  
+- Computed values of matrices, eigenvalues, and complex roots  
 
-Fourth roots of unity
+---
 
-Fifth roots of unity
+## ✍ Author
 
-Helps visualize and understand roots in the complex plane.
-
-Exp 9: Square Root of a Complex Number
-
-File: Exp 9 Sqrt of 5 12i.sci
-
-Computes the square roots of the complex number 
-5 + 12i
-5+12i.
-
-Uses polynomial representation and the roots() function.
-
-Demonstrates complex arithmetic in Scilab.
-
-▶️ How to Run
-
-Install Scilab from: https://www.scilab.org/
-
-Open Scilab Console.
-
-Set the working directory to the folder containing the .sci files.
-
-Execute any experiment using:
-
-exec('filename.sci', -1)
-🎯 Learning Outcomes
-
-Understanding numerical solutions of differential equations
-
-Performing matrix operations and eigenvalue analysis
-
-Working with polynomials and complex roots
-
-Gaining hands-on experience with Scilab syntax and mathematical computing
-
-👤 Author
-
-Shah Nawaz Ali
+**Shah Nawaz Ali**  
 (Physics | Computational & Numerical Methods)
+Assistant Professor, Department of Physics,
+Goalpara College 
+
+---
+
+## ⭐ Note for Students
+
+Students are encouraged to:
+- Change matrix size and elements  
+- Try different complex numbers  
+- Relate numerical output with analytical results discussed in class  
+
+Happy Computing!
+
+
