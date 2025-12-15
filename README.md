@@ -74,7 +74,7 @@ Students gain confidence in complex number arithmetic and interpretation.
 ---
 
 ## 🎓 Course Context
-
+(Physics | Computational & Numerical Methods)
 These programs are designed for **B.Sc. Physics 4th Semester**
 **Mathematical Physics Practical / Laboratory**.
 
@@ -95,7 +95,6 @@ They are useful for:
 ## ✍ Author
 
 **Shah Nawaz Ali**  
-(Physics | Computational & Numerical Methods)
 Assistant Professor, Department of Physics,
 Goalpara College 
 
