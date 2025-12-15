@@ -17,10 +17,25 @@ complex number concepts** through numerical computation.
 
 ### Aim  
 To solve the following differential equations:  
-(i) \( \frac{dy}{dx} = e^x \) with \( y = 0 \) for \( x = 0 \)  
-(ii) \( \frac{dy}{dx} + e^{-x}y = x^2 \)  
-(iii) \( \frac{d^2y}{dx^2} + 2\frac{dy}{dx} = -y \)  
-(iv) \( \frac{d^2y}{dx^2} + e^{-x}\frac{dy}{dx} = -y \)
+(i)
+$$
+\frac{dy}{dx} = e^x,\quad y = 0 \text{ for } x = 0
+$$
+
+(ii)
+$$
+\frac{dy}{dx} + e^{-x}y = x^2
+$$
+
+(iii)
+$$
+\frac{d^2y}{dx^2} + 2\frac{dy}{dx} = -y
+$$
+
+(iv)
+$$
+\frac{d^2y}{dx^2} + e^{-x}\frac{dy}{dx} = -y
+$$
 
 ### Theory  
 Differential equations play a central role in physics as they describe the evolution
