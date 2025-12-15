@@ -1,14 +1,30 @@
 # Mathematical Physics Practical – Scilab Programs  
-### B.Sc. Physics (4th Semester, NEP)
+### B.Sc. Physics (4th Semester)
 
 This repository contains **Scilab programs for the Mathematical Physics Practical**
 prescribed for **B.Sc. Physics 4th Semester**.  
-The programs help students understand **linear algebra and complex number concepts**
-through numerical computation.
+The programs help students understand **linear algebra, differential equations, and
+complex number concepts** through numerical computation.
 
 ---
 
 ## 📁 List of Experiments
+
+---
+
+## Experiment 1: Solution of Differential Equation  
+**File:** `Exp 1 scilab diff eqn.sci`
+
+### Aim  
+To solve a differential equation using Scilab.
+
+### Theory  
+Differential equations play a central role in physics as they describe the evolution
+of physical systems. Many problems in mechanics, electricity, and quantum physics
+are governed by ordinary differential equations.
+
+### Learning Outcome  
+Students learn how to solve differential equations numerically using Scilab.
 
 ---
 
@@ -74,7 +90,6 @@ Students gain confidence in complex number arithmetic and interpretation.
 ---
 
 ## 🎓 Course Context
-(Physics | Computational & Numerical Methods)
 
 These programs are designed for **B.Sc. Physics 4th Semester**
 **Mathematical Physics Practical / Laboratory**.
@@ -89,6 +104,7 @@ They are useful for:
 ## 📊 Output
 
 - Numerical results displayed in the Scilab console  
+- Solutions of differential equations  
 - Computed values of matrices, eigenvalues, and complex roots  
 
 ---
@@ -104,10 +120,8 @@ Goalpara College
 ## ⭐ Note for Students
 
 Students are encouraged to:
-- Change matrix size and elements  
-- Try different complex numbers  
-- Relate numerical output with analytical results discussed in class  
+- Modify parameters and initial conditions  
+- Observe changes in solutions  
+- Relate numerical results with analytical methods discussed in class  
 
 Happy Computing!
-
-
